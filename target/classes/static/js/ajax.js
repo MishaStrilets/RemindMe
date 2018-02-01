@@ -22,9 +22,27 @@ $(document).ready(
 							timeout : 600000,
 
 							success : function(data) {
+
+								var mes = "Data saved." + " The letter with"
+										+ " the specified"
+										+ " information will come"
+										+ " to you at the"
+										+ " specified email "
+										+ " mail at the specified date.";
+								var pos = location.toString()
+										.indexOf("lang=ua");
+
+								if (pos != -1)
+									mes = "Дані збережено."
+											+ " Лист з указаною"
+											+ " інформацією прийде"
+											+ " вам на вказану електрону"
+											+ " пошту в указану дату.";
+
 								var json = "<div class="
-										+ "\"alert alert-info\">"
-										+ "<p>Data saved.</p>" + "</div>";
+										+ "\"alert alert-success\">" + mes
+										+ "</div>";
+
 								$('#info-input').html(json);
 
 								console.log("SUCCESS : ", data);
@@ -33,10 +51,18 @@ $(document).ready(
 							},
 
 							error : function(e) {
+
+								var mes = "All fields must be filled.";
+								var pos = location.toString()
+										.indexOf("lang=ua");
+
+								if (pos != -1)
+									mes = "Усі поля повинні бути заповнені.";
+
 								var json = "<div class="
-										+ "\"alert alert-info\">"
-										+ "<p>All fields must be filled."
-										+ "</p></div>";
+										+ "\"alert alert-danger\">" + mes
+										+ "</div>";
+
 								$('#info-input').html(json);
 
 								console.log("ERROR : ", e);
