@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<title>RemindMe</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<link rel="stylesheet" type="text/css"
+	href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
+<link href="../static/css/style.css" th:href="@{/css/style.css}"
+	rel="stylesheet" media="screen" />
+<script type="text/javascript" src="webjars/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/ajax.js"></script>
+
+</head>
+<body>
+
+	<div class="container" style="min-height: 500px">
+
+		<h1 align="center">RemindMe</h1>
+		<div id="info">
+			On this site, you can write a reminder. It may be any information or
+			dispute that you do not want to forget. To do this, you need to fill
+			out the form below.<br /> What you need:<br />- describe the
+			information or dispute;<br />- specify the date of sending the
+			letter to the e-mail;<br />- e-mails to which these letters will be
+			sent.<br /> All fields must be filled. To specify multiple e-mails,
+			you need to write these e-mails via a semicolon (;).
+		</div>
+
+		<br />
+
+		<div align="center">
+			<a class="btn btn-primary btn-lg" href="#form-part">Go to form</a>
+		</div>
+
+		<div id="form-part" class="starter-template">
+			<h2>Form:</h2>
+
+			<div id="info-input"></div>
+
+			<form class="form-horizontal" id="form">
+
+				<input type="hidden" id="id" />
+
+				<div class="form-group form-group-lg">
+					<label class="col-sm-2 control-label">Description:</label>
+					<div class="col-sm-6">
+						<textarea rows="10" cols="50" class="form-control"
+							id="description"></textarea>
+					</div>
+				</div>
+
+				<div class="form-group form-group-lg">
+					<label class="col-sm-2 control-label">Date:</label>
+					<div class="col-sm-6">
+						<input type="date" class="form-control" id="date" />
+					</div>
+				</div>
+
+				<div class="form-group form-group-lg">
+					<label class="col-sm-2 control-label">Email:</label>
+					<div class="col-sm-6">
+						<input type="text" class="form-control" id="email" maxlength="100" />
+					</div>
+				</div>
+
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-6">
+						<button type="submit" id="bth-save" class="btn btn-success btn-lg">Save
+						</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+
+<footer>
+	<p>
+		Contact information: <a href="mailto:mishastrilets@gmail.com">mishastrilets@gmail.com</a><br />2018
+	</p>
+</footer>
+
+</html>
