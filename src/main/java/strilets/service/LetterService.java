@@ -10,6 +10,8 @@ public interface LetterService {
 
 	void deleteLetter(int id);
 
-	List<Letter> getLetters(String data);
+	List<Letter> getLetters(String date);
+
+	void sendLetter();
 
 }

@@ -36,7 +36,7 @@ public class LetterDaoImpl extends AbstrarctDao<Integer, Letter> implements Lett
 		Criteria criteria = createEntityCriteria();
 		List<Letter> letters;
 
-		criteria.add(Restrictions.like("data", data, MatchMode.ANYWHERE));
+		criteria.add(Restrictions.like("date", data, MatchMode.START));
 		letters = criteria.list();
 
 		return letters;
