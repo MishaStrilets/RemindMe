@@ -14954,3 +14954,209 @@ Consider revisiting the conditions above or defining a bean of type 'org.springf
 2018-02-06 00:27:52.129  INFO 5624 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@145e5c6: startup date [Tue Feb 06 00:25:47 EET 2018]; root of context hierarchy
 2018-02-06 00:27:52.150  INFO 5624 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
 2018-02-06 00:27:52.193  INFO 5624 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-02-06 01:02:42.048  INFO 3140 --- [main] strilets.RemindMeApplication             : Starting RemindMeApplication on MishaStrilets with PID 3140 (D:\Job\Projects\RemindMe\target\classes started by Misha Strilets in D:\Job\Projects\RemindMe)
+2018-02-06 01:02:42.078  INFO 3140 --- [main] strilets.RemindMeApplication             : No active profile set, falling back to default profiles: default
+2018-02-06 01:02:43.205  INFO 3140 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@145e5c6: startup date [Tue Feb 06 01:02:43 EET 2018]; root of context hierarchy
+2018-02-06 01:02:46.801  INFO 3140 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$19b0cbf0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-06 01:02:47.760  INFO 3140 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-02-06 01:02:47.833  INFO 3140 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-02-06 01:02:47.848  INFO 3140 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-02-06 01:02:48.218  INFO 3140 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-06 01:02:48.219  INFO 3140 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5021 ms
+2018-02-06 01:02:48.591  INFO 3140 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-06 01:02:48.600  INFO 3140 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-06 01:02:48.602  INFO 3140 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-06 01:02:48.602  INFO 3140 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-06 01:02:48.603  INFO 3140 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-06 01:02:48.870  INFO 3140 --- [main] o.s.j.d.DriverManagerDataSource          : Loaded JDBC driver: com.mysql.jdbc.Driver
+2018-02-06 01:02:49.823  INFO 3140 --- [main] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from URL [file:/D:/Job/Projects/RemindMe/target/classes/schema.sql]
+2018-02-06 01:02:49.841  INFO 3140 --- [main] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from URL [file:/D:/Job/Projects/RemindMe/target/classes/schema.sql] in 17 ms.
+2018-02-06 01:02:50.412  INFO 3140 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-02-06 01:02:50.544  INFO 3140 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-02-06 01:02:50.918  INFO 3140 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-02-06 01:02:50.922  INFO 3140 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-02-06 01:02:50.933  INFO 3140 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-02-06 01:02:51.246  INFO 3140 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-06 01:02:51.888  INFO 3140 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-02-06 01:02:52.930  WARN 3140 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : true.  Supported values include create, create-drop, update, and validate.  Ignoring
+2018-02-06 01:02:54.099  INFO 3140 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-02-06 01:02:54.273  INFO 3140 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-02-06 01:02:54.746  INFO 3140 --- [main] o.s.o.h.HibernateTransactionManager      : Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@8b401d] of Hibernate SessionFactory for HibernateTransactionManager
+2018-02-06 01:02:55.768  INFO 3140 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@145e5c6: startup date [Tue Feb 06 01:02:43 EET 2018]; root of context hierarchy
+2018-02-06 01:02:56.424  INFO 3140 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String strilets.controller.AppController.index()
+2018-02-06 01:02:56.432  INFO 3140 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> strilets.controller.ControllerRest.getSearchResultViaAjax(strilets.model.Letter,org.springframework.validation.Errors)
+2018-02-06 01:02:56.439  INFO 3140 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-06 01:02:56.440  INFO 3140 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-06 01:02:56.534  INFO 3140 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-06 01:02:56.535  INFO 3140 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-06 01:02:56.649  INFO 3140 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-06 01:02:58.709  INFO 3140 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-06 01:02:58.752  INFO 3140 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-02-06 01:02:59.059  INFO 3140 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-02-06 01:02:59.079  INFO 3140 --- [main] strilets.RemindMeApplication             : Started RemindMeApplication in 18.369 seconds (JVM running for 21.96)
+2018-02-06 01:03:36.290  INFO 3140 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-02-06 01:03:36.291  INFO 3140 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@145e5c6: startup date [Tue Feb 06 01:02:43 EET 2018]; root of context hierarchy
+2018-02-06 01:03:36.298  INFO 3140 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-06 01:03:36.303  INFO 3140 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-02-06 01:05:32.437  INFO 5368 --- [main] strilets.RemindMeApplication             : Starting RemindMeApplication on MishaStrilets with PID 5368 (D:\Job\Projects\RemindMe\target\classes started by Misha Strilets in D:\Job\Projects\RemindMe)
+2018-02-06 01:05:32.498  INFO 5368 --- [main] strilets.RemindMeApplication             : No active profile set, falling back to default profiles: default
+2018-02-06 01:05:34.276  INFO 5368 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@145e5c6: startup date [Tue Feb 06 01:05:34 EET 2018]; root of context hierarchy
+2018-02-06 01:05:37.882  INFO 5368 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$846f4580] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-06 01:05:38.907  INFO 5368 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-02-06 01:05:38.985  INFO 5368 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-02-06 01:05:39.000  INFO 5368 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-02-06 01:05:39.802  INFO 5368 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-06 01:05:39.804  INFO 5368 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5545 ms
+2018-02-06 01:05:40.233  INFO 5368 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-06 01:05:40.258  INFO 5368 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-06 01:05:40.273  INFO 5368 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-06 01:05:40.274  INFO 5368 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-06 01:05:40.274  INFO 5368 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-06 01:05:40.404  INFO 5368 --- [main] o.s.j.d.DriverManagerDataSource          : Loaded JDBC driver: com.mysql.jdbc.Driver
+2018-02-06 01:05:41.314  INFO 5368 --- [main] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from URL [file:/D:/Job/Projects/RemindMe/target/classes/schema.sql]
+2018-02-06 01:05:41.339  INFO 5368 --- [main] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from URL [file:/D:/Job/Projects/RemindMe/target/classes/schema.sql] in 24 ms.
+2018-02-06 01:05:41.828  INFO 5368 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-02-06 01:05:41.881  INFO 5368 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-02-06 01:05:42.827  INFO 5368 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-02-06 01:05:42.831  INFO 5368 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-02-06 01:05:42.849  INFO 5368 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-02-06 01:05:43.058  INFO 5368 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-06 01:05:45.391  INFO 5368 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-02-06 01:05:47.125  WARN 5368 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : true.  Supported values include create, create-drop, update, and validate.  Ignoring
+2018-02-06 01:05:48.970  INFO 5368 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-02-06 01:05:49.185  INFO 5368 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-02-06 01:05:49.525  INFO 5368 --- [main] o.s.o.h.HibernateTransactionManager      : Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@1a281fc] of Hibernate SessionFactory for HibernateTransactionManager
+2018-02-06 01:05:50.505  INFO 5368 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@145e5c6: startup date [Tue Feb 06 01:05:34 EET 2018]; root of context hierarchy
+2018-02-06 01:05:50.737  INFO 5368 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String strilets.controller.AppController.index()
+2018-02-06 01:05:50.745  INFO 5368 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> strilets.controller.ControllerRest.getSearchResultViaAjax(strilets.model.Letter,org.springframework.validation.Errors)
+2018-02-06 01:05:50.751  INFO 5368 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-06 01:05:50.752  INFO 5368 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-06 01:05:50.861  INFO 5368 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-06 01:05:50.862  INFO 5368 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-06 01:05:50.973  INFO 5368 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-06 01:05:52.669  INFO 5368 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-06 01:05:52.701  INFO 5368 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-02-06 01:05:52.895  INFO 5368 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-02-06 01:05:52.906  INFO 5368 --- [main] strilets.RemindMeApplication             : Started RemindMeApplication in 21.599 seconds (JVM running for 27.515)
+2018-02-06 01:05:53.402  INFO 5368 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-06 01:05:53.403  INFO 5368 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-06 01:05:53.469  INFO 5368 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 65 ms
+2018-02-06 01:06:37.787  INFO 5368 --- [http-nio-8080-exec-8] strilets.dao.LetterDaoImpl               : Save letter: Letter [id=0, description=Sohodni, date=2018-02-06, email=fwerfwe;mishastrilets@gmail.com]
+2018-02-06 01:07:02.528  INFO 5368 --- [http-nio-8080-exec-1] strilets.dao.LetterDaoImpl               : Save letter: Letter [id=0, description=Zavtra, date=2018-02-07, email=mishastrilets@gmail.com]
+2018-02-06 01:12:52.451  INFO 5368 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-02-06 01:12:52.453  INFO 5368 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@145e5c6: startup date [Tue Feb 06 01:05:34 EET 2018]; root of context hierarchy
+2018-02-06 01:12:52.466  INFO 5368 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-06 01:12:52.476  INFO 5368 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-02-06 01:13:21.182  INFO 3368 --- [main] strilets.RemindMeApplication             : Starting RemindMeApplication on MishaStrilets with PID 3368 (D:\Job\Projects\RemindMe\target\classes started by Misha Strilets in D:\Job\Projects\RemindMe)
+2018-02-06 01:13:21.191  INFO 3368 --- [main] strilets.RemindMeApplication             : No active profile set, falling back to default profiles: default
+2018-02-06 01:13:22.125  INFO 3368 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@145e5c6: startup date [Tue Feb 06 01:13:22 EET 2018]; root of context hierarchy
+2018-02-06 01:13:25.106  INFO 3368 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c5e48d6a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-06 01:13:26.098  INFO 3368 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-02-06 01:13:26.171  INFO 3368 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-02-06 01:13:26.175  INFO 3368 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-02-06 01:13:26.633  INFO 3368 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-06 01:13:26.634  INFO 3368 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4527 ms
+2018-02-06 01:13:27.009  INFO 3368 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-06 01:13:27.018  INFO 3368 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-06 01:13:27.020  INFO 3368 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-06 01:13:27.020  INFO 3368 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-06 01:13:27.021  INFO 3368 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-06 01:13:27.174  INFO 3368 --- [main] o.s.j.d.DriverManagerDataSource          : Loaded JDBC driver: com.mysql.jdbc.Driver
+2018-02-06 01:13:27.938  INFO 3368 --- [main] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from URL [file:/D:/Job/Projects/RemindMe/target/classes/schema.sql]
+2018-02-06 01:13:27.947  INFO 3368 --- [main] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from URL [file:/D:/Job/Projects/RemindMe/target/classes/schema.sql] in 9 ms.
+2018-02-06 01:13:28.504  INFO 3368 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-02-06 01:13:28.614  INFO 3368 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-02-06 01:13:29.201  INFO 3368 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-02-06 01:13:29.205  INFO 3368 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-02-06 01:13:29.215  INFO 3368 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-02-06 01:13:29.457  INFO 3368 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-06 01:13:30.148  INFO 3368 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-02-06 01:13:31.261  WARN 3368 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : true.  Supported values include create, create-drop, update, and validate.  Ignoring
+2018-02-06 01:13:32.364  INFO 3368 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-02-06 01:13:32.502  INFO 3368 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-02-06 01:13:32.851  INFO 3368 --- [main] o.s.o.h.HibernateTransactionManager      : Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@8fe51d] of Hibernate SessionFactory for HibernateTransactionManager
+2018-02-06 01:13:33.637  INFO 3368 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@145e5c6: startup date [Tue Feb 06 01:13:22 EET 2018]; root of context hierarchy
+2018-02-06 01:13:33.860  INFO 3368 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String strilets.controller.AppController.index()
+2018-02-06 01:13:33.867  INFO 3368 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> strilets.controller.ControllerRest.getSearchResultViaAjax(strilets.model.Letter,org.springframework.validation.Errors)
+2018-02-06 01:13:33.874  INFO 3368 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-06 01:13:33.875  INFO 3368 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-06 01:13:33.958  INFO 3368 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-06 01:13:33.959  INFO 3368 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-06 01:13:34.084  INFO 3368 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-06 01:13:36.015  INFO 3368 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-06 01:13:36.045  INFO 3368 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-02-06 01:13:36.304  INFO 3368 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-02-06 01:13:36.315  INFO 3368 --- [main] strilets.RemindMeApplication             : Started RemindMeApplication in 15.914 seconds (JVM running for 17.79)
+2018-02-06 01:13:41.213  INFO 3368 --- [pool-1-thread-1] strilets.dao.LetterDaoImpl               : Search letter by data: 2018-02-06
+2018-02-06 01:13:41.820  INFO 3368 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-06 01:13:41.821  INFO 3368 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-06 01:13:41.907  INFO 3368 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 85 ms
+2018-02-06 01:13:53.970  INFO 3368 --- [pool-1-thread-1] strilets.dao.LetterDaoImpl               : Error sending letter to email: fwerfwe
+2018-02-06 01:13:55.998  INFO 3368 --- [pool-1-thread-1] strilets.dao.LetterDaoImpl               : Send letter to email: mishastrilets@gmail.com
+2018-02-06 01:13:56.000  INFO 3368 --- [pool-1-thread-1] strilets.dao.LetterDaoImpl               : Delete letter by id: 40
+2018-02-06 01:14:00.209  INFO 3368 --- [pool-1-thread-1] strilets.dao.LetterDaoImpl               : Search letter by data: 2018-02-06
+2018-02-06 01:14:20.027  INFO 3368 --- [pool-1-thread-1] strilets.dao.LetterDaoImpl               : Search letter by data: 2018-02-06
+2018-02-06 01:14:40.065  INFO 3368 --- [pool-1-thread-1] strilets.dao.LetterDaoImpl               : Search letter by data: 2018-02-06
+2018-02-06 01:14:45.724  INFO 3368 --- [http-nio-8080-exec-6] strilets.dao.LetterDaoImpl               : Save letter: Letter [id=0, description=QWEY, date=2018-02-06, email=mishastrilets@gmail.com]
+2018-02-06 01:14:52.674  INFO 3368 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-02-06 01:14:52.675  INFO 3368 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@145e5c6: startup date [Tue Feb 06 01:13:22 EET 2018]; root of context hierarchy
+2018-02-06 01:14:52.690  INFO 3368 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-06 01:14:52.697  INFO 3368 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-02-06 01:17:39.488  INFO 5172 --- [main] strilets.RemindMeApplication             : Starting RemindMeApplication on MishaStrilets with PID 5172 (D:\Job\Projects\RemindMe\target\classes started by Misha Strilets in D:\Job\Projects\RemindMe)
+2018-02-06 01:17:39.496  INFO 5172 --- [main] strilets.RemindMeApplication             : No active profile set, falling back to default profiles: default
+2018-02-06 01:17:40.366  INFO 5172 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@145e5c6: startup date [Tue Feb 06 01:17:40 EET 2018]; root of context hierarchy
+2018-02-06 01:17:43.645  INFO 5172 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9e1c658e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-02-06 01:17:44.750  INFO 5172 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-02-06 01:17:44.824  INFO 5172 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-02-06 01:17:44.831  INFO 5172 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-02-06 01:17:45.353  INFO 5172 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-06 01:17:45.355  INFO 5172 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4995 ms
+2018-02-06 01:17:45.757  INFO 5172 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-06 01:17:45.766  INFO 5172 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-06 01:17:45.802  INFO 5172 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-06 01:17:45.803  INFO 5172 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-06 01:17:45.803  INFO 5172 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-06 01:17:45.937  INFO 5172 --- [main] o.s.j.d.DriverManagerDataSource          : Loaded JDBC driver: com.mysql.jdbc.Driver
+2018-02-06 01:17:46.590  INFO 5172 --- [main] o.s.jdbc.datasource.init.ScriptUtils     : Executing SQL script from URL [file:/D:/Job/Projects/RemindMe/target/classes/schema.sql]
+2018-02-06 01:17:46.601  INFO 5172 --- [main] o.s.jdbc.datasource.init.ScriptUtils     : Executed SQL script from URL [file:/D:/Job/Projects/RemindMe/target/classes/schema.sql] in 10 ms.
+2018-02-06 01:17:47.003  INFO 5172 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-02-06 01:17:47.126  INFO 5172 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-02-06 01:17:47.530  INFO 5172 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2018-02-06 01:17:47.534  INFO 5172 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-02-06 01:17:47.544  INFO 5172 --- [main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2018-02-06 01:17:47.750  INFO 5172 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-02-06 01:17:48.460  INFO 5172 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-02-06 01:17:49.160  WARN 5172 --- [main] o.h.b.i.SessionFactoryBuilderImpl        : Unrecognized hbm2ddl_auto value : true.  Supported values include create, create-drop, update, and validate.  Ignoring
+2018-02-06 01:17:50.165  INFO 5172 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-02-06 01:17:50.319  INFO 5172 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2018-02-06 01:17:50.621  INFO 5172 --- [main] o.s.o.h.HibernateTransactionManager      : Using DataSource [org.springframework.jdbc.datasource.DriverManagerDataSource@cfcbc9] of Hibernate SessionFactory for HibernateTransactionManager
+2018-02-06 01:17:51.383  INFO 5172 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@145e5c6: startup date [Tue Feb 06 01:17:40 EET 2018]; root of context hierarchy
+2018-02-06 01:17:51.622  INFO 5172 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String strilets.controller.AppController.index()
+2018-02-06 01:17:51.629  INFO 5172 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> strilets.controller.ControllerRest.getSearchResultViaAjax(strilets.model.Letter,org.springframework.validation.Errors)
+2018-02-06 01:17:51.636  INFO 5172 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-02-06 01:17:51.637  INFO 5172 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-02-06 01:17:51.736  INFO 5172 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-06 01:17:51.736  INFO 5172 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-06 01:17:51.846  INFO 5172 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-02-06 01:17:54.262  INFO 5172 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-06 01:17:54.365  INFO 5172 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-02-06 01:17:54.557  INFO 5172 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-02-06 01:17:54.568  INFO 5172 --- [main] strilets.RemindMeApplication             : Started RemindMeApplication in 15.866 seconds (JVM running for 17.426)
+2018-02-06 01:18:06.005  INFO 5172 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-02-06 01:18:06.006  INFO 5172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-02-06 01:18:06.046  INFO 5172 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 40 ms
+2018-02-06 01:19:00.223  INFO 5172 --- [pool-1-thread-1] strilets.dao.LetterDaoImpl               : Search letter by data: 2018-02-06
+2018-02-06 01:19:03.354  INFO 5172 --- [pool-1-thread-1] strilets.dao.LetterDaoImpl               : Send letter to email: mishastrilets@gmail.com
+2018-02-06 01:19:03.357  INFO 5172 --- [pool-1-thread-1] strilets.dao.LetterDaoImpl               : Delete letter by id: 42
+2018-02-06 01:20:06.958  INFO 5172 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-02-06 01:20:06.958  INFO 5172 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@145e5c6: startup date [Tue Feb 06 01:17:40 EET 2018]; root of context hierarchy
+2018-02-06 01:20:06.966  INFO 5172 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-06 01:20:06.970  INFO 5172 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'

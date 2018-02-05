@@ -17,11 +17,10 @@ public class AppController {
 	}
 
 	/**
-	 * This method will return home page and send letters to users.
+	 * This method will return home page.
 	 */
 	@GetMapping("/")
 	public String index() {
-		letterService.sendLetter();
 		return "index";
 	}
 }

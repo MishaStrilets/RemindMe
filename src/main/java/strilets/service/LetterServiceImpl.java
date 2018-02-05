@@ -10,6 +10,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -42,6 +43,7 @@ public class LetterServiceImpl implements LetterService {
 		return letters;
 	}
 
+	@Scheduled(cron = "0 0 0 * * ?")
 	public void sendLetter() {
 		Date currenrDate = new Date();
 		SimpleDateFormat formatForDateNow = new SimpleDateFormat("yyyy-MM-dd");
