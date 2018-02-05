@@ -23,6 +23,10 @@ public class ControllerRest {
 		this.letterService = letterService;
 	}
 
+	/**
+	 * This method will be called on form submission, handling POST request for
+	 * saving letter in database.
+	 */
 	@PostMapping("/api")
 	public ResponseEntity<?> getSearchResultViaAjax(@Valid @RequestBody Letter letter, Errors errors) {
 

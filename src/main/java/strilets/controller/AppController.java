@@ -16,6 +16,9 @@ public class AppController {
 		this.letterService = letterService;
 	}
 
+	/**
+	 * This method will return home page and send letters to users.
+	 */
 	@GetMapping("/")
 	public String index() {
 		letterService.sendLetter();
