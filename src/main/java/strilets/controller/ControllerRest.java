@@ -28,7 +28,7 @@ public class ControllerRest {
 	 * saving letter in database.
 	 */
 	@PostMapping("/api")
-	public ResponseEntity<?> getSearchResultViaAjax(@Valid @RequestBody Letter letter, Errors errors) {
+	public ResponseEntity<?> saveLetter(@Valid @RequestBody Letter letter, Errors errors) {
 
 		if (errors.hasErrors())
 			return new ResponseEntity<Object>(HttpStatus.BAD_REQUEST);

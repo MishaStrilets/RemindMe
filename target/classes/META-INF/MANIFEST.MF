@@ -3,7 +3,7 @@ Implementation-Title: RemindMe
 Implementation-Version: 0.0.1-SNAPSHOT
 Built-By: Misha Strilets
 Implementation-Vendor-Id: strilets
-Build-Jdk: 1.8.0_101
+Build-Jdk: 1.8.0_161
 Implementation-URL: http://projects.spring.io/spring-boot/RemindMe/
 Created-By: Maven Integration for Eclipse
 Implementation-Vendor: Pivotal Software, Inc.
